@@ -1,1 +1,76 @@
+.body {
+    font-family: 'Gruppo', cursive;
+}
 
+button {
+    aspect-ratio: 1/1;
+    width: 40px;
+    color: rgb(4, 202, 27);
+    background-color: yellow;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 400;
+    border-style: none;
+}
+
+input {
+    font-family: arial;
+    font-size: 20px;
+    color:whitesmoke;
+    border-radius: 4px 4px 0 0;
+    border: none;
+    outline: none;
+    text-align: end;
+    width: 156px;
+    height: 65px;
+    background-image: linear-gradient(to top right, #d74d95, #efb533);
+
+}
+
+.result {
+    width: 160px;
+}
+.buttonsContainer {
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    aspect-ratio: 1/1;
+    width: 160px;
+    
+}
+
+.mainContainer {
+    font-family: 'Gruppo', cursive;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number {
+    color: #515151cc;
+    background-color: whitesmoke
+}
+
+.sign {
+    color: #515151cc;
+    background-color: rgb(233, 231, 231);
+}
+
+.clearAll {
+    background-color: rgb(233, 231, 231);
+    color: #d74d95;
+}
+.delete {
+    background-color: rgb(233, 231, 231);
+    color: #d74d95;
+}
+
+.para {
+    background-color: rgb(233, 231, 231);
+    color: #515151cc;
+}
+.equal {
+    background-image: linear-gradient(to top right, #d74d95, #efb533);
+    color: whitesmoke
+}
